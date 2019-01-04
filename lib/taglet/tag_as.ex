@@ -73,7 +73,7 @@ defmodule Taglet.TagAs do
 
   defmacro __before_compile__(_env) do
 
-    quote do
+    quote generated: true do
       @contexts
       |> Enum.each(fn(context) ->
         singularized_context = Inflex.singularize(context)
