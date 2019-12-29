@@ -40,7 +40,7 @@ defmodule Taglet.Mixfile do
     [
       {:ecto, "~> 3.0"},
       {:ecto_sql, "~> 3.0"},
-      {:postgrex, "~> 0.14.0"},
+      {:postgrex, "~> 0.15.0"},
       {:inflex, "~> 1.8.1"},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false},
     ]
